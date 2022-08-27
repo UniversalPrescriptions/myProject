@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Universal Prescriptions offers parallel trade of pharmaceuticals, medical devices, beauty fillers, medical consumables,and supplements">
+    <meta name="keywords" content="Pharmaceutical-wholesalers, Pharmaceutical-warehouse, Pharmaceutical-seller, Pharmaceuticals, Pharma, Medications,
+    Botox,  Fillers, Drugs, Antibiotocs, Medical-devices, Medical-consumables">
+    <title>Parallel Trade of all products in health industry-Click here!</title>
+    <link rel="stylesheet" href="Universal-Prescriptions-Parallel-Trade.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+<link rel="stylesheet" href="toggle.css">
+</head>
+
+<body>
+    <div class="box-area">
+        <header>
+            <nav class="navbar">
+            <a href="#" class="nav-branding">PARALLEL TRADE</a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="Universal-Prescriptions.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="Universal-Prescriptions-services.html" class="nav-link">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="Universal-Prescriptions-Charity..html" class="nav-link">Values</a>
+                </li>
+                <li class="nav-item">
+                    <a href="Universal-Prescriptions-team.html" class="nav-link">Team</a>
+                </li>
+                <li class="nav-item">
+                    <a href="Universal-Prescriptions-Contact.html" class="nav-link">Contacts</a>
+                </li>
+    
+                <li class="nav-item">
+                  <a href="../Universal-Prescriptions/china-market/Universal-Prescriptions-Parallel-Trade.html"><img src="China.png" alt=""></a>
+                </li>
+                <li class="nav-item">
+                  <a href="../Universal-Prescriptions/russian-market/Universal-Prescriptions-параллельная-торговля.html"><img src="Russia.png" alt=""></a>
+                </li>
+                <li class="nav-item">
+                  <a href="../Universal-Prescriptions/turkish-market/Universal-Prescriptions-paralel-ticaret.html"><img src="Turkey.png" alt=""></a> 
+                </li>
+    
+    
+            </ul>
+            
+            <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+            </div>
+            
+            
+            
+            </nav>
+            
+                </header>
+       
+        <div class="content-area">
+           <div class="banner-area">
+              
+           </div>
+        </div>
+    </div>
+
+    <div class="slider">
+        <div class="slide active">
+            <img src="Pharmaceuticals-Medications-Antibiotocs.jpg" alt="Drugs, Antibiotocs">
+            <div class="info">
+                <h2>Parallel Trade</h2>
+                <P>We are one of the leading pharmaceutical-wholesalers of medications, drugs, antibiotics, supplements, medical-devices, and medical-consumables.
+                    We provide medications and healthcare products with affordable prices in 95 countries worldwide.      
+                </P>
+            
+            </div>
+        </div>
+        <div class="slide">
+            <img src="Vitamin.jpg" alt="Drugs, Antibiotocs,  Medical-devices, Medical-consumables">
+            <div class="info">
+                <h2>We supply 23 thousand  different products</h2>
+                <p>We supply original and generic pharmaceuticals  and medical devices from reliable manufacturers, and  suppliers from European Union, United States, Turkey, and China.</p>
+            </div>
+        </div>
+        <div class="slide">
+            <img src="Pharmaceutical-wholesalers-drugs.jpeg" alt="Pharmaceuticals, Pharma, Medications">
+            <div class="info">
+                <h2>GMP and ISO Certified</h2>
+                <p> We supply only ISO and GMP certified products.Safety is our priority. And providing high quality products that meets safety standards.</p>            </div>
+        </div>
+        <div class="slide">
+            <img src="Pharmaceutical-seller-Antibiotocs.jpg" alt="Antibiotocs, Medical-devices, Medical-consumables">
+            <div class="info">
+                <h2>Our product range </h2>
+                <p>Our Product range includes Brand and Generic Medication, Hospital Equipment, Medical Substance, Parenteral Solution, Nutritions, Medical devices, Beauty Fillers. </p>
+            </div>
+        </div>
+        <div class="slide">
+            <img src="Botox-Fillers-min.jpg" alt="Botox, Fillers">
+            <div class="info">
+                <h2>Aesthetic Products</h2>
+                <p>We supply high quality injectable dermal fillers and beuty injections from South Korea and European Union.
+              We own wide range of Hyaluronic Acid Filler assortment.
+                </p>
+            </div>
+        </div>
+        <div class="navigation">
+            <i class="fas fa-chevron-left prev-btn"></i>
+            <i class="fas fa-chevron-right next-btn"></i>
+        </div>
+        <div class="navigation-visibility">
+            <div class="slide-icon active"></div>
+            <div class="slide-icon"></div>
+            <div class="slide-icon"></div>
+            <div class="slide-icon"></div>
+            <div class="slide-icon"></div>
+        </div>
+    </div>
+ 
+    <section class="footer">
+        <div class="social">
+            <a href="https://www.instagram.com/universal_31_prescriptions/ "><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/feed/?trk=onboarding-landing "><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100084882125168 "><i class="fab fa-facebook-f"></i></a>
+        </div>
+    
+        <ul class="list">
+            <li>
+                Order Now and Get 10% of Discount
+        </ul>
+        <p class="copyright">
+            Universal Prescriptions @2022
+        </p>
+    </section>
+    <script src="script.js"></script>
+
+    <script type="text/javascript">
+        const slider = document.querySelector(".slider");
+        const nextBtn = document.querySelector(".next-btn");
+        const prevBtn = document.querySelector(".prev-btn");
+        const slides = document.querySelectorAll(".slide");
+        const slideIcons = document.querySelectorAll(".slide-icon");
+        const numberOfSlides = slides.length;
+        var slideNumber = 0;
+
+      
+        nextBtn.addEventListener("click", () => {
+            slides.forEach((slide) => {
+                slide.classList.remove("active");
+            });
+            slideIcons.forEach((slideIcon) => {
+                slideIcon.classList.remove("active");
+            });
+
+            slideNumber++;
+
+            if (slideNumber > (numberOfSlides - 1)) {
+                slideNumber = 0;
+            }
+
+            slides[slideNumber].classList.add("active");
+            slideIcons[slideNumber].classList.add("active");
+        });
+
+        prevBtn.addEventListener("click", () => {
+            slides.forEach((slide) => {
+                slide.classList.remove("active");
+            });
+            slideIcons.forEach((slideIcon) => {
+                slideIcon.classList.remove("active");
+            });
+
+            slideNumber--;
+
+            if (slideNumber < 0) {
+                slideNumber = numberOfSlides - 1;
+            }
+
+            slides[slideNumber].classList.add("active");
+            slideIcons[slideNumber].classList.add("active");
+        });
+
+        
+        var playSlider;
+
+        var repeater = () => {
+            playSlider = setInterval(function() {
+                slides.forEach((slide) => {
+                    slide.classList.remove("active");
+                });
+                slideIcons.forEach((slideIcon) => {
+                    slideIcon.classList.remove("active");
+                });
+
+                slideNumber++;
+
+                if (slideNumber > (numberOfSlides - 1)) {
+                    slideNumber = 0;
+                }
+
+                slides[slideNumber].classList.add("active");
+                slideIcons[slideNumber].classList.add("active");
+            }, 4000);
+        }
+        repeater();
+
+      
+        slider.addEventListener("mouseover", () => {
+            clearInterval(playSlider);
+        });
+
+       
+        slider.addEventListener("mouseout", () => {
+            repeater();
+        });
+    </script>
+</body>
+
+</html>
+
+</html>

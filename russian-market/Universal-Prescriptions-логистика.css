@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    padding-top: 80px;
+    background:#fff;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.7em;
+    color: #fff;
+}
+
+@media (min-width: 1000px) {
+    
+  .gallery-photo {
+    width: 250px;
+    height: 250px;
+    border-radius: 2px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+    position: absolute;
+  
+    outline-offset: 20px;
+    transition: all 0.2s;
+} 
+ 
+ #parallax {
+    margin-top: 100px;
+}
+    }
+    @media screen and (max-width: 1000px) and (min-width: 800px){
+      
+  
+  #parallax{
+      margin-top: 100px;
+  }
+    }
+@media (max-width: 800px){
+  
+
+#parallax{
+ margin-top: 100px;
+}
+}
+
+.logo a:hover{
+color: #fff;
+}
+
+nav a:hover{
+    color: #999;
+}
+.language img{
+    width: 20px;
+    height: 20px;
+    }  
+h1 {
+    color: #8d99ae;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 65px;
+    letter-spacing: 15px;
+}
+
+.gallery {
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+.gallery-photo:hover {
+    /* outline: 15px solid #14addc; */
+    transform: scale(1.05) translateY(-20px);
+    z-index: 20;
+}
+
+.gallery:hover.gallery-photo:not(:hover) {
+    transform: scale(0.9)
+}
+
+
+#parallax,h4,p {
+    color: #8d99ae;
+}
+
+.fish1 {
+    background-image: url("Международная-перевозка-груза-min.jpg");
+    height: 100vh;
+    width: 100%;
+}
+
+.fish2 {
+    background-image: url("Международные-перевозки-медикаменты.jpg");
+    height: 100vh;
+    width: 100%;
+}
+
+.fish3 {
+    background-image: url("Международные-перевозки.jpg");
+    height: 100vh;
+}
+
+
+
+.fish1,
+.fish2,
+.fish3
+{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.section {
+    text-align: center;
+    padding: 20px 50px;
+}
+
+.txtimg {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    text-align: center;
+    color: #ffffff;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.txtimg .txtborder {
+    background-color: #ffffff;
+    color: #111;
+    opacity: .80;
+    padding: 25px;
+}
+.footer{
+    padding: 40px 0;
+    background-color: #fff;
+}
+.footer .social {
+    text-align: center;
+    padding-bottom: 25px;
+    color: #8d99ae;
+}
+.footer .social a{
+    font-size: 24px;
+    color: inherit;
+    border: 1px solid #ccc;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    opacity: 0.75;
+}
+.footer .social a:hover{
+    opacity: 0.9;
+}
+.footer ul{
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+}
+.footer ul li a{
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
+}
+.footer ul li{
+    display: inline-block;
+    padding: 0 15px;
+}
+.footer ul li a:hover{
+    opacity: 1;
+    color: #999;
+}
+   .footer .copyright {
+       margin-top: 15px;
+       text-align: center;
+       font-size: 13px;
+       color:#aaa;
+   }
